@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+}
+.leftside{
+    display: flex;
+}
+#logo{
+    width: 75px;
+    height: 28px;
+   margin: 10px 16px;
+}
+#gap{
+    margin: 15px -9px;
+    border: 0.5px solid #AAAAAA;
+}
+#Header_title{
+    font-family: 'Actual';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #666666;
+    margin: 15px 18px;
+
+
+    color: #666666;
+}
+.rightside{
+    display: flex;
+}
+.call{
+    align-items: center;
+    margin: 15px 39px;
+}
+.number{
+    width: 95px;
+    height: 24px;
+    font-family: 'Actual';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    margin-top: 0px;
+    margin-left: -35px;
+    margin-right: 54px;
+    margin-bottom: 18px;
+    color: #666666;
+}
+.Header_sign{
+   
+    width: 43px;
+    height: 18px;
+    font-family: 'Actual';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    color: #666666;
+    margin-top: 0px;
+    margin-left: -33px;
+    margin-right: 19px;
+    margin-bottom: 18px;
+}

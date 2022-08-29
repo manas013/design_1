@@ -1,0 +1,49 @@
+.search{
+    background: #fff;
+    max-width: 625px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.search_main {
+    display: flex;
+}
+
+.search_left {
+    display: flex;
+    flex-direction: row;
+}
+
+#gps{
+    padding: 21px;
+    height: 15px;
+    max-width: 20px;
+    width: 100%;
+}
+.search_right{
+    display: flex;
+    flex-direction: row;
+}
+#icon_svg{
+    padding: 21px;
+    height: 22px;
+    max-width: 20px;
+    width: 100%;
+}
+.search_right p{
+    margin-top: 23px;
+}
+.search_end{
+    display: flex;
+    padding-left: 63px;
+}
+#down_arrow{
+    padding: 21px;
+    height: 22px;
+    max-width: 20px;
+    width: 100%;
+}
+#icon_buttom{
+    max-width: 98px;
+    width: 100%;
+}
