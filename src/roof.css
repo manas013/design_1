@@ -25,15 +25,22 @@
 }
 .roof_left{
     margin-right:0px;
+    padding: 20px;
 }
 
 #roof{
     border-radius: 5px;
     align-items: center;
-    width: 100%;
+    width: 97%;
     max-width: 747px;
 }
+#roof_1{
+    border-radius: 5px;
+    align-items: center;
+    width: 96%;
+    max-width: 747px;
 
+}
     .right p {
         /* margin: 81px 3px; */
         font-family: 'Actual';
@@ -80,6 +87,7 @@
     border-radius: 8px;
     color: #fff;
     font-family: 'Actual';
+    margin-bottom: 12px;
 
 }
 .home{

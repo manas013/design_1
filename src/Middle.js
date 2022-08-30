@@ -48,7 +48,7 @@ function Middle() {
                         <img src='./icons/Frame22.svg' alt='frame' />
                     </div>
                     <div >
-                        <p className='id_12' >Less Time</p>
+                        <p className='id_16' >Less Time</p>
                         <p>Get multiple quotes all in one place, instead of negotiating with each installer.</p>
 
                     </div>
@@ -59,7 +59,7 @@ function Middle() {
                         <img src='./icons/frame 2.svg' id='frame2' />
                     </div>
                     <div>
-                        <p className='id_12'>More Savings</p>
+                        <p className='id_14'>More Savings</p>
                         <p >Our network of approved installers compete for your project, giving you the best price.</p>
                     </div>
 
@@ -70,7 +70,7 @@ function Middle() {
                         <img src='./icons/frame3.svg' alt='icon3'/>
                     </div>
                     <div>
-                        <p className='id_12'>100% Online & Free</p>
+                        <p className='id_13'>100% Online & Free</p>
                         <p>Our online tools and expert advisors will help you compare and select the offer that best fits your needs, at no cost!</p>
 
                     </div>
@@ -83,10 +83,10 @@ function Middle() {
             <div className='root'>
             <div className='roof'>
                 <div className='roof_left'>
-                    <img id='roof' src='./images/roof-panel 8.jpg' alt='roof' />
+                    <img id='roof_1' src='./images/roof-panel 8.jpg' alt='roof' />
                 </div>
                 <div className='roof_right'>
-                    <p>Rooftop Solar</p>
+                    <p>Rooftop <span className='text_color_1'>Solar</span></p>
                     <p id='next_left_title'>Harness the sun’s energy to reach your renewable energy goals</p>
                     <div className='valo'>
                     <img id='icon-4' src='./icons/frame4.svg' alt='frame 4'/>
@@ -105,7 +105,7 @@ function Middle() {
                     <img id='roof' src='./images/image 54.jpg' alt='image54' />
                 </div>
                 <div className='roof_right'>
-                    <p>Home Battery</p>
+                    <p>Home <span>Battery</span></p>
                     <p id='next_left_title'>Strengthen your grid resilience with distributed resources</p>
                     <div className='valo'>
                     <img id='icon-4' src='./icons/frame4.svg' alt='frame5'/>
@@ -121,7 +121,7 @@ function Middle() {
             <div className='root'>
             <div className='roof'>
                 <div className='roof_left'>
-                    <img id='roof' src='./images/PANEL.jpg' alt='panel' />
+                    <img id='roof_1' src='./images/PANEL.jpg' alt='panel' />
                 </div>
                 <div className='roof_right'>
                     <p>Water Heater</p>

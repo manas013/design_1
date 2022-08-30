@@ -4,13 +4,26 @@
         max-width: 38%;
         width: 100%;
     }
+    #icon_buttom {
+        max-width: 76px;
+        width: 100%;
+        padding-right: 75px;
+    }
 }
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px)  {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
 
     #home {
         font-size: 45px;
     }
+    .roof{
+        display: flex;
+        justify-content: center;
+    }
     
+    .home{
+        display: flex;
+        justify-content: center;
+    }
 #electric {
     font-size: 57px;
     
@@ -47,7 +60,7 @@
 
 
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px)  {
+@media screen and (min-device-width: 481px) and (max-device-width: 767px)  {
     .middle{
         /* padding-left: 128px; */
         padding-left: 20px;
@@ -62,6 +75,11 @@
     }
     #electric {
         font-size: 35px; 
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
     }
     .head{
         width: 0px;
@@ -83,12 +101,22 @@
     #down_arrow {
         padding: 13px;
     }
+    .roof{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        
+    }
+
 
 
   }
   @media screen and (min-device-width: 320px) and (max-device-width: 480px)  {
     .header {
         padding-left: 20px;
+    }
+    .home{
+        padding: 1px;
     }
     .middle {
         padding-left: 20px;
@@ -147,10 +175,12 @@
     }
     .roof {
         padding: 0px;
+        display: flex;
+        justify-content: center;
     }
     .bottom {
-        padding-left: 20px;
-        padding-right: 0px;
+        padding-left: 20px !important;
+        padding-right: 0px !important;
     }
     #down_arrow {
         margin-top: 20px;
